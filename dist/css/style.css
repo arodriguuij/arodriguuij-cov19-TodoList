@@ -1,0 +1,96 @@
+.form {
+    display: inline-block;
+}
+.form-group {
+    text-align: center;
+    padding-bottom: 25px;
+}
+#todo {
+    margin: 0 auto;
+    width: 25rem;
+}
+
+li a {
+  float: right;
+  text-decoration: none;
+}
+li a:hover {
+    text-decoration: none;
+  }
+  li.active {
+    background: lightgrey;
+  }
+  
+ul.list-unstyled li{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 0.1rem;
+}
+ul.nav li{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 0.1rem;
+}
+
+.completed{
+    background-color: rgb(138, 235, 170);
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 20%;
+    padding: 1rem 1rem;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .content{
+    padding: 1rem;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    text-align: center;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 1rempx;
+    }
+  }
+
+  .gold{
+    background: gold;
+  }
+  .silver{
+    background: silver
+  }
+  .bronze{
+    background: #cd7f32
+  }
+  .green{color: green}
+  .red{color: red}
+  .orange{color: orange}
+
+  .uniqueCard {
+    margin: auto;
+    width: 50%;
+  }
+
+  .column:hover {
+    opacity: 0.5;
+    }
